@@ -13,6 +13,14 @@ body {
   background-size: cover;
   margin: 0;
 }
+   .container {
+  flex-direction: column; /* Изменяем направление главной оси на вертикальное для мобильных экранов */
+}
+
+.item {
+  width: 100%; /* Устанавливаем ширину элемента в 100% для мобильных экранов */
+  box-sizing: border-box; /* Позволяет учитывать padding и border в общей ширине элемента */
+}
 .item {
   background-color: white; /* Измените на нужный вам цвет фона */
 }
