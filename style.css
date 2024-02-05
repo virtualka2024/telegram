@@ -9,6 +9,10 @@
   border: 2px solid black;
   text-align: center;
 }
+.btn:active {
+  background-color: #4CAF50; /* Новый цвет при активации (нажатии) */
+  color: white; /* Цвет текста при активации */
+}
 .product {
   background-color: #f0f0f0; /* Цвет фона для блока с продуктом */
   padding: 10px; /* Отступы внутри блока с продуктом */
