@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <script src="script.js" charset="windows-1251"></script>
+ <meta charset="utf-8">
+ <script src="script.js" charset="utf-8"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
@@ -12,7 +13,7 @@
     body {      background-image: url('f.jpg');
       background-size: cover;
       margin: 0;
- 
+
     }
 
     .container {
@@ -42,24 +43,16 @@
       margin: 10px 0;
     }
 
-   /* Общие стили для кнопок */
-.btn {
-  background-color: #87CEEB;
-  color: black;
-  padding: 15px;
+   .btn {
+  background-color: #87CEEB; /* Нежно-голубой цвет фона */
+  color: black; /* Цвет текста черный */
+  padding: 15px; /* Уменьшаем отступы внутри кнопки */
   cursor: pointer;
-  border: 2px solid black;
+  border: 2px solid black; /* Добавляем границу черного цвета */
   border-radius: 15px;
   margin: 2px;
-  width: 80%;
-  font-size: 30px;
-}
-
-/* Стили для мобильных устройств (например, для экранов шириной менее 600px) */
-@media only screen and (max-width: 600px) {
-  .btn {
-    width: 100%; /* Ширина кнопки на мобильных устройствах будет 100% */
-  }
+  width: 40%;
+  font-size: 20px; /* Увеличиваем размер шрифта */
 }
     }
 
@@ -83,6 +76,9 @@
   </style>
 </head>
 <body>
+ <form accept-charset="UTF-8">
+  <!-- Ваш контент формы (если есть) -->
+</form>
   <div class="container">
     <div class="item" id="product1">
       <img src="images/1.png" alt="Product 1" class="img">
@@ -133,8 +129,7 @@
 <div id="cart" class="cart-container">
   <div id="cartItems" class="cart-items"></div>
 </div>
-  <script src="script.js"></script>
-<script src="script.js" charset="windows-1251"></script>
+<script src="script.js" charset="utf-8"></script>
 <div id="cartItems" class="cart-list"></div>
 </body>
 </html>
