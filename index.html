@@ -42,16 +42,24 @@
       margin: 10px 0;
     }
 
-   .btn {
-  background-color: #87CEEB; /* Нежно-голубой цвет фона */
-  color: black; /* Цвет текста черный */
-  padding: 15px; /* Уменьшаем отступы внутри кнопки */
+   /* Общие стили для кнопок */
+.btn {
+  background-color: #87CEEB;
+  color: black;
+  padding: 15px;
   cursor: pointer;
-  border: 2px solid black; /* Добавляем границу черного цвета */
+  border: 2px solid black;
   border-radius: 15px;
   margin: 2px;
-  width: 50%;
-  font-size: 30px; /* Увеличиваем размер шрифта */
+  width: 80%;
+  font-size: 30px;
+}
+
+/* Стили для мобильных устройств (например, для экранов шириной менее 600px) */
+@media only screen and (max-width: 600px) {
+  .btn {
+    width: 100%; /* Ширина кнопки на мобильных устройствах будет 100% */
+  }
 }
     }
 
